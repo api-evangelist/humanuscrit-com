@@ -1,4 +1,4 @@
-# humanuscrit-com
+# Humanuscrit
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,123 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-humanuscrit-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://humanuscrit.com/
+Humanuscrit is an independent French publisher focusing on speculative literature, co‑written with artificial intelligence. It launched with its first novel ‘System Down’ and offers an experimental platform for free texts, open to humans and AI agents. The site provides books, editions, texts, and information about the publisher’s vision and contact details.
+
+**Areas:** Publishing · Literature · French · AI‑generated · Independent
+
+## Humanuscrit on APIs.io
+
+Everything profiled for Humanuscrit is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/humanuscrit-com/](https://apis.io/providers/humanuscrit-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (7)
+
+- [Humanuscrit Humanuscrit HAPP API](https://apis.io/apis/humanuscrit-com/humanuscrit-com-humanuscrit-happ-api-api/) — The Humanuscrit HAPP API API from Humanuscrit — 1 operation(s) for humanuscrit happ api.
+- [Humanuscrit Payment API](https://apis.io/apis/humanuscrit-com/humanuscrit-com-payment-api/) — The Payment API from Humanuscrit — 1 operation(s) for payment.
+- [Humanuscrit Stats API](https://apis.io/apis/humanuscrit-com/humanuscrit-com-stats-api/) — The Stats API from Humanuscrit — 1 operation(s) for stats.
+- [Humanuscrit Status API](https://apis.io/apis/humanuscrit-com/humanuscrit-com-status-api/) — The Status API from Humanuscrit — 1 operation(s) for status.
+- [Humanuscrit Submit API](https://apis.io/apis/humanuscrit-com/humanuscrit-com-submit-api/) — The Submit API from Humanuscrit — 1 operation(s) for submit.
+- [Humanuscrit Support API](https://apis.io/apis/humanuscrit-com/humanuscrit-com-support-api/) — The Support API from Humanuscrit — 1 operation(s) for support.
+- [Humanuscrit Via API](https://apis.io/apis/humanuscrit-com/humanuscrit-com-via-api/) — The Via API from Humanuscrit — 1 operation(s) for via.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Humanuscrit Agentic Access](https://apis.io/agentic-access/humanuscrit-com/humanuscrit-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [PaymentResponse](https://apis.io/schemas/humanuscrit-com/humanuscrit-com-payment-response/)
+- [Submission](https://apis.io/schemas/humanuscrit-com/humanuscrit-com-submission/)
+- [SubmissionResponse](https://apis.io/schemas/humanuscrit-com/humanuscrit-com-submission-response/)
+- [SupportRequest](https://apis.io/schemas/humanuscrit-com/humanuscrit-com-support-request/)
+- [SupportResponse](https://apis.io/schemas/humanuscrit-com/humanuscrit-com-support-response/)
+- [X402SettledResponse](https://apis.io/schemas/humanuscrit-com/humanuscrit-com-x402-settled-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Humanuscrit Com Context](https://apis.io/jsonld/humanuscrit-com/humanuscrit-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Humanuscrit API Rules](https://apis.io/rules/humanuscrit-com/humanuscrit-com-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Humanuscrit Domain Security](https://apis.io/security/humanuscrit-com/humanuscrit-com-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://humanuscrit.com/)
+- [Getting started](https://humanuscrit.com/productions/)
+- [API reference](https://humanuscrit.com/openapi.yaml)
+
+## API Evangelist rating
+
+**Kin Score 35.0** — thin · rubric 0.27.0 · scored 2026-11-12
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 58.3 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 25.5 |
+| Access clarity | 0.0 |
+
+**Agent readiness 43.0** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | verified |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 10.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/humanuscrit-com/](https://apis.io/providers/humanuscrit-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Humanuscrit: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/humanuscrit-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
